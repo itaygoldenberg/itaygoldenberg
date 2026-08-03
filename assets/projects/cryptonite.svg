@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="245" viewBox="0 0 560 245" role="img" aria-label="Cryptonite project">
+  <defs>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#22d3ee"/><stop offset=".55" stop-color="#3b82f6"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+    <linearGradient id="icon" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#0f766e"/><stop offset="1" stop-color="#4338ca"/></linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect x="1.5" y="1.5" width="557" height="242" rx="16" fill="#081421" stroke="url(#border)" stroke-width="2" />
+  <path d="M24 18 H536" stroke="#20364d" stroke-width="2" />
+  <path d="M24 18 H536" stroke="url(#border)" stroke-width="2" stroke-dasharray="512" stroke-dashoffset="512"><animate attributeName="stroke-dashoffset" values="512;0;0" keyTimes="0;.72;1" dur="4.8s" repeatCount="indefinite"/></path>
+  <rect x="30" y="38" width="68" height="68" rx="12" fill="url(#icon)" />
+  <path d="M45 86V56h38v30M51 79l8-9 7 5 11-14" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="77" cy="61" r="4" fill="#5eead4" filter="url(#glow)"><animate attributeName="opacity" values="1;.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
+  <text x="118" y="61" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="800">Cryptonite</text>
+  <text x="119" y="84" fill="#7dd3fc" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">REAL-TIME CRYPTO INTELLIGENCE</text>
+  <rect x="431" y="37" width="96" height="28" rx="7" fill="#0d2b28" stroke="#257366" />
+  <circle cx="447" cy="51" r="4" fill="#34d399"><animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite"/></circle>
+  <text x="460" y="55" fill="#8cf2d1" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="800">LIVE</text>
+  <text x="30" y="139" fill="#dbe7f3" font-family="Segoe UI,Arial,sans-serif" font-size="15">A production-style crypto dashboard with WebSocket reports,</text>
+  <text x="30" y="162" fill="#9fb0c5" font-family="Segoe UI,Arial,sans-serif" font-size="15">interactive charts and AI-assisted market insights.</text>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="700">
+    <rect x="30" y="192" width="76" height="28" rx="7" fill="#10253a" stroke="#245174"/><text x="68" y="210" fill="#7dd3fc" text-anchor="middle">REACT</text>
+    <rect x="116" y="192" width="99" height="28" rx="7" fill="#12213c" stroke="#31588c"/><text x="165" y="210" fill="#93c5fd" text-anchor="middle">TYPESCRIPT</text>
+    <rect x="225" y="192" width="76" height="28" rx="7" fill="#211b3b" stroke="#594795"/><text x="263" y="210" fill="#c4b5fd" text-anchor="middle">REDUX</text>
+    <rect x="311" y="192" width="82" height="28" rx="7" fill="#0d2926" stroke="#286b61"/><text x="352" y="210" fill="#86efac" text-anchor="middle">VERCEL</text>
+  </g>
+  <circle cx="517" cy="207" r="17" fill="#10263a" stroke="#2e6b91"/><path d="M510 207h13m-5-5 5 5-5 5" fill="none" stroke="#7dd3fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
