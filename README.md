@@ -1,3 +1,5 @@
+<!-- GitHub profile README -->
+
 <p align="center">
   <img src="./assets/profile-banner.svg" alt="Itay Goldenberg - Full Stack Developer" width="100%" />
 </p>
