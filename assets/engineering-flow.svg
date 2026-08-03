@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="Engineering delivery workflow from discovery to release">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071421" />
+      <stop offset="0.6" stop-color="#0a1525" />
+      <stop offset="1" stop-color="#11132d" />
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#2dd4bf" />
+      <stop offset="0.5" stop-color="#38bdf8" />
+      <stop offset="1" stop-color="#8b5cf6" />
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="0.5" stop-color="#7dd3fc" stop-opacity="0.12" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="b" />
+      <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <clipPath id="clip"><rect x="1" y="1" width="1198" height="218" rx="16" /></clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="218" rx="16" fill="url(#panel)" stroke="#22354d" stroke-width="2" />
+  <rect x="1" y="1" width="1198" height="218" rx="16" fill="none" stroke="url(#flow)" stroke-width="2" stroke-dasharray="46 28" opacity="0.6">
+    <animate attributeName="stroke-dashoffset" values="0;-296" dur="10s" repeatCount="indefinite" />
+  </rect>
+  <g clip-path="url(#clip)">
+    <rect x="-240" y="1" width="180" height="218" fill="url(#scan)" transform="skewX(-16)">
+      <animate attributeName="x" values="-240;1400" dur="8s" repeatCount="indefinite" />
+    </rect>
+    <path d="M-30 190 C180 142 310 218 490 169 S800 129 1230 183" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity="0.08" />
+  </g>
+
+  <text x="46" y="38" fill="#7dd3fc" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="2">DELIVERY PIPELINE</text>
+  <text x="1152" y="38" fill="#718399" font-family="Consolas,monospace" font-size="11" text-anchor="end">DISCOVER / DESIGN / BUILD / VERIFY / SHIP</text>
+
+  <path id="route" d="M124 112 H1076" fill="none" stroke="#24384f" stroke-width="4" stroke-linecap="round" />
+  <path d="M124 112 H1076" fill="none" stroke="url(#flow)" stroke-width="4" stroke-linecap="round" stroke-dasharray="13 27">
+    <animate attributeName="stroke-dashoffset" values="0;-160" dur="3.6s" repeatCount="indefinite" />
+  </path>
+  <circle r="7" fill="#ffffff" filter="url(#glow)">
+    <animateMotion dur="6s" repeatCount="indefinite"><mpath href="#route" /></animateMotion>
+  </circle>
+
+  <g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle">
+    <g transform="translate(124 112)">
+      <circle r="36" fill="#0b2630" stroke="#277368" stroke-width="2" />
+      <circle r="29" fill="none" stroke="#2dd4bf" stroke-width="2" stroke-dasharray="12 9"><animateTransform attributeName="transform" type="rotate" values="0;360" dur="8s" repeatCount="indefinite" /></circle>
+      <path d="M-12 6l8-8 7 5 12-14M10-11h5v5" fill="none" stroke="#8cf2e5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <text y="61" fill="#f8fafc" font-size="14" font-weight="800">DISCOVER</text>
+      <text y="79" fill="#7890a8" font-size="10">PROBLEM + CONTEXT</text>
+    </g>
+    <g transform="translate(362 112)">
+      <circle r="36" fill="#0b2032" stroke="#275d7d" stroke-width="2" />
+      <circle r="29" fill="none" stroke="#38bdf8" stroke-width="2" stroke-dasharray="12 9"><animateTransform attributeName="transform" type="rotate" values="0;-360" dur="8s" repeatCount="indefinite" /></circle>
+      <path d="M-14-12h28v24h-28zM-14-4h28M-5 3h10" fill="none" stroke="#9bdfff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <text y="61" fill="#f8fafc" font-size="14" font-weight="800">DESIGN</text>
+      <text y="79" fill="#7890a8" font-size="10">FLOW + INTERFACE</text>
+    </g>
+    <g transform="translate(600 112)">
+      <circle r="39" fill="#101d38" stroke="#46589b" stroke-width="2" filter="url(#glow)" />
+      <circle r="31" fill="none" stroke="#818cf8" stroke-width="2" stroke-dasharray="14 8"><animateTransform attributeName="transform" type="rotate" values="0;360" dur="6s" repeatCount="indefinite" /></circle>
+      <path d="M-16-10l-10 10 10 10M16-10L26 0 16 10M8-16L-7 16" fill="none" stroke="#c4b5fd" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <text y="64" fill="#f8fafc" font-size="14" font-weight="800">BUILD</text>
+      <text y="82" fill="#8f8dac" font-size="10">TYPED + MODULAR</text>
+    </g>
+    <g transform="translate(838 112)">
+      <circle r="36" fill="#0b2032" stroke="#275d7d" stroke-width="2" />
+      <circle r="29" fill="none" stroke="#38bdf8" stroke-width="2" stroke-dasharray="12 9"><animateTransform attributeName="transform" type="rotate" values="0;-360" dur="8s" repeatCount="indefinite" /></circle>
+      <path d="M-15 0l10 10 21-23" fill="none" stroke="#86efac" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="stroke-dasharray" values="0 50;50 0;50 0" keyTimes="0;.45;1" dur="3s" repeatCount="indefinite" /></path>
+      <text y="61" fill="#f8fafc" font-size="14" font-weight="800">VERIFY</text>
+      <text y="79" fill="#7890a8" font-size="10">TEST + REFINE</text>
+    </g>
+    <g transform="translate(1076 112)">
+      <circle r="36" fill="#171a39" stroke="#5a4a91" stroke-width="2" />
+      <circle r="29" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-dasharray="12 9"><animateTransform attributeName="transform" type="rotate" values="0;360" dur="8s" repeatCount="indefinite" /></circle>
+      <path d="M0-17c9 5 15 13 15 23L4 17 0 7l-4 10-11-11c0-10 6-18 15-23zM-15 18l-8 8M15 18l8 8" fill="none" stroke="#d8ccff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <text y="61" fill="#f8fafc" font-size="14" font-weight="800">SHIP</text>
+      <text y="79" fill="#8f8dac" font-size="10">DEPLOY + LEARN</text>
+    </g>
+  </g>
+
+  <g fill="#0a1525" stroke-width="2">
+    <circle cx="243" cy="112" r="7" stroke="#32cbd2"><animate attributeName="r" values="5;8;5" dur="2s" repeatCount="indefinite" /></circle>
+    <circle cx="481" cy="112" r="7" stroke="#57aef4"><animate attributeName="r" values="5;8;5" dur="2s" begin=".4s" repeatCount="indefinite" /></circle>
+    <circle cx="719" cy="112" r="7" stroke="#718bf4"><animate attributeName="r" values="5;8;5" dur="2s" begin=".8s" repeatCount="indefinite" /></circle>
+    <circle cx="957" cy="112" r="7" stroke="#8070da"><animate attributeName="r" values="5;8;5" dur="2s" begin="1.2s" repeatCount="indefinite" /></circle>
+  </g>
+</svg>

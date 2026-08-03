@@ -1,8 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="230" height="56" viewBox="0 0 230 56" role="img" aria-label="Connect on LinkedIn">
-  <defs><linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0a66c2"/><stop offset="1" stop-color="#2f8de4"/></linearGradient></defs>
-  <rect x="1" y="1" width="228" height="54" rx="8" fill="#0a2540" stroke="#1769aa" />
-  <rect x="20" y="13" width="30" height="30" rx="6" fill="url(#shine)" />
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0a66c2"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".16"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <clipPath id="clip"><rect x="1" y="1" width="228" height="54" rx="8"/></clipPath>
+  </defs>
+  <rect x="1" y="1" width="228" height="54" rx="8" fill="#092038" stroke="#1769aa" />
+  <path d="M2 2H228" stroke="url(#brand)" stroke-width="2" stroke-dasharray="58 170"><animate attributeName="stroke-dashoffset" values="58;-228" dur="3.8s" repeatCount="indefinite"/></path>
+  <g clip-path="url(#clip)"><rect x="-70" y="1" width="56" height="54" fill="url(#scan)" transform="skewX(-18)"><animate attributeName="x" values="-70;270" dur="4s" begin="1s" repeatCount="indefinite"/></rect></g>
+  <rect x="20" y="13" width="30" height="30" rx="7" fill="url(#brand)"><animate attributeName="rx" values="7;11;7" dur="3s" repeatCount="indefinite"/></rect>
   <text x="35" y="35" fill="#ffffff" font-family="Arial,sans-serif" font-size="20" font-weight="800" text-anchor="middle">in</text>
   <text x="60" y="26" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="800">CONNECT ON LINKEDIN</text>
   <text x="60" y="42" fill="#7dd3fc" font-family="Segoe UI,Arial,sans-serif" font-size="10">ITAY GOLDENBERG</text>
+  <circle cx="210" cy="28" r="9" fill="#0a2b49" stroke="#2f8de4"><animate attributeName="r" values="8.5;10;8.5" dur="2.4s" repeatCount="indefinite"/></circle>
+  <path d="M206 28h7m-3-3 3 3-3 3" fill="none" stroke="#bfdbfe" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

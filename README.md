@@ -47,6 +47,10 @@ I am a Full Stack Developer based in Israel, focused on building clean, responsi
   </tr>
 </table>
 
+<p align="center">
+  <img src="./assets/engineering-flow.svg" alt="Animated engineering delivery workflow" width="100%" />
+</p>
+
 ## Toolkit
 
 <table>

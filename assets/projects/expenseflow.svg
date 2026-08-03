@@ -2,13 +2,18 @@
   <defs>
     <linearGradient id="border" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a78bfa"/><stop offset=".5" stop-color="#60a5fa"/><stop offset="1" stop-color="#2dd4bf"/></linearGradient>
     <linearGradient id="icon" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#4c1d95"/><stop offset="1" stop-color="#0f766e"/></linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#c4b5fd" stop-opacity=".1"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="clip"><rect x="1.5" y="1.5" width="557" height="242" rx="16"/></clipPath>
   </defs>
   <rect x="1.5" y="1.5" width="557" height="242" rx="16" fill="#0a1321" stroke="url(#border)" stroke-width="2" />
+  <g clip-path="url(#clip)"><rect x="-130" y="2" width="96" height="240" fill="url(#scan)" transform="skewX(-14)"><animate attributeName="x" values="-130;700" dur="6.4s" begin="1s" repeatCount="indefinite"/></rect></g>
+  <rect x="2.5" y="2.5" width="555" height="240" rx="15" fill="none" stroke="url(#border)" stroke-width="1" stroke-dasharray="20 28" opacity=".5"><animate attributeName="stroke-dashoffset" values="0;-192" dur="7.2s" repeatCount="indefinite"/></rect>
   <path d="M24 18 H536" stroke="#20364d" stroke-width="2" />
   <path d="M24 18 H536" stroke="url(#border)" stroke-width="2" stroke-dasharray="512" stroke-dashoffset="512"><animate attributeName="stroke-dashoffset" values="512;0;0" keyTimes="0;.72;1" dur="5s" repeatCount="indefinite"/></path>
-  <rect x="30" y="38" width="68" height="68" rx="12" fill="url(#icon)" />
+  <rect x="30" y="38" width="68" height="68" rx="12" fill="url(#icon)"><animate attributeName="opacity" values=".78;1;.78" dur="3.1s" repeatCount="indefinite"/></rect>
   <path d="M45 59h37v31H45zM45 66h37M55 81h8" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
-  <circle cx="75" cy="81" r="5" fill="#5eead4" />
+  <circle cx="75" cy="81" r="5" fill="#5eead4"><animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite"/></circle>
   <text x="118" y="61" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="800">ExpenseFlow</text>
   <text x="119" y="84" fill="#c4b5fd" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">PERSONAL FINANCE WORKSPACE</text>
   <rect x="431" y="37" width="96" height="28" rx="7" fill="#0d2b28" stroke="#257366" />
@@ -16,10 +21,11 @@
   <text x="460" y="55" fill="#8cf2d1" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="800">LIVE</text>
   <text x="30" y="139" fill="#dbe7f3" font-family="Segoe UI,Arial,sans-serif" font-size="15">A focused expense manager for creating, filtering and</text>
   <text x="30" y="162" fill="#9fb0c5" font-family="Segoe UI,Arial,sans-serif" font-size="15">analyzing financial records in a clear browser workflow.</text>
+  <path d="M30 179H527" stroke="url(#border)" stroke-width="1" opacity=".22"/><circle cy="179" r="3" fill="#c4b5fd" filter="url(#glow)"><animate attributeName="cx" values="30;527;30" dur="5.6s" begin=".8s" repeatCount="indefinite"/></circle>
   <g font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="700">
     <rect x="30" y="192" width="100" height="28" rx="7" fill="#292114" stroke="#6d5821"/><text x="80" y="210" fill="#fde68a" text-anchor="middle">JAVASCRIPT</text>
     <rect x="140" y="192" width="72" height="28" rx="7" fill="#3a1c18" stroke="#86402f"/><text x="176" y="210" fill="#fdba74" text-anchor="middle">HTML</text>
     <rect x="222" y="192" width="66" height="28" rx="7" fill="#102848" stroke="#285b92"/><text x="255" y="210" fill="#93c5fd" text-anchor="middle">CSS</text>
   </g>
-  <circle cx="517" cy="207" r="17" fill="#211a38" stroke="#624ba1"/><path d="M510 207h13m-5-5 5 5-5 5" fill="none" stroke="#c4b5fd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="517" cy="207" r="17" fill="#211a38" stroke="#624ba1"><animate attributeName="r" values="16;18;16" dur="2.5s" repeatCount="indefinite"/><animate attributeName="stroke" values="#624ba1;#2dd4bf;#624ba1" dur="3.6s" repeatCount="indefinite"/></circle><path d="M510 207h13m-5-5 5 5-5 5" fill="none" stroke="#c4b5fd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

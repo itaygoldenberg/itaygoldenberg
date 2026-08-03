@@ -1,9 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="230" height="56" viewBox="0 0 230 56" role="img" aria-label="Open Cryptonite">
-  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0d806f"/><stop offset="1" stop-color="#2563a9"/></linearGradient></defs>
-  <rect x="1" y="1" width="228" height="54" rx="8" fill="#0a1724" stroke="#1d5268" />
-  <rect x="1" y="1" width="5" height="54" rx="3" fill="url(#g)" />
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#14b8a6"/><stop offset="1" stop-color="#3b82f6"/></linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".16"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <clipPath id="clip"><rect x="1" y="1" width="228" height="54" rx="8"/></clipPath>
+  </defs>
+  <rect x="1" y="1" width="228" height="54" rx="8" fill="#081724" stroke="#1d5268" />
+  <g clip-path="url(#clip)"><rect x="-70" y="1" width="56" height="54" fill="url(#scan)" transform="skewX(-18)"><animate attributeName="x" values="-70;270" dur="3.8s" repeatCount="indefinite"/></rect></g>
+  <rect x="1" y="1" width="5" height="54" rx="3" fill="url(#g)"><animate attributeName="height" values="22;54;22" dur="2.8s" repeatCount="indefinite"/></rect>
   <path d="M28 36V20h17v16M31 31l4-5 4 3 4-6" fill="none" stroke="#5eead4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-  <circle cx="43" cy="23" r="2.5" fill="#60a5fa"><animate attributeName="opacity" values="1;.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
+  <circle cx="43" cy="23" r="2.5" fill="#60a5fa"><animate attributeName="opacity" values="1;.2;1" dur="1.6s" repeatCount="indefinite"/><animate attributeName="r" values="2.5;4;2.5" dur="1.6s" repeatCount="indefinite"/></circle>
   <text x="60" y="26" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="800">OPEN CRYPTONITE</text>
   <text x="60" y="42" fill="#7dd3fc" font-family="Segoe UI,Arial,sans-serif" font-size="10">LATEST LIVE PROJECT</text>
+  <circle cx="210" cy="28" r="9" fill="#0c2533" stroke="#2b7088"><animate attributeName="stroke-opacity" values=".45;1;.45" dur="2s" repeatCount="indefinite"/></circle>
+  <path d="M206 28h7m-3-3 3 3-3 3" fill="none" stroke="#8cf2e5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
