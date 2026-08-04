@@ -5,14 +5,28 @@
     <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#8cf2e5" stop-opacity=".14"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
     <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <clipPath id="clip"><rect x="1" y="1" width="248" height="62" rx="11"/></clipPath>
+    <clipPath id="chart-motion"><rect x="27" y="23" width="18" height="15" rx="1"/></clipPath>
   </defs>
   <rect x="1" y="1" width="248" height="62" rx="11" fill="url(#bg)" stroke="#24556b" stroke-width="1.5"/>
   <rect x="1" y="1" width="248" height="62" rx="11" fill="none" stroke="url(#edge)" stroke-width="1.5" stroke-dasharray="76 544" opacity=".9"><animate attributeName="stroke-dashoffset" values="76;-544" dur="5.2s" repeatCount="indefinite"/></rect>
   <g clip-path="url(#clip)"><rect x="-72" y="1" width="54" height="62" fill="url(#scan)" transform="skewX(-16)"><animate attributeName="x" values="-72;300" dur="4.8s" repeatCount="indefinite"/></rect></g>
-  <path d="M25 41V22h21v19M29 35l5-6 5 4 6-9" fill="none" stroke="#5eead4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="45" cy="24" r="3" fill="#60a5fa" filter="url(#glow)"><animate attributeName="opacity" values="1;.3;1" dur="1.8s" repeatCount="indefinite"/></circle>
+  <path d="M25 41V22h21v19" fill="none" stroke="#5eead4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g clip-path="url(#chart-motion)">
+    <path d="M16 35L20 30L24 33L28 26L32 30L36 24L40 35L44 30L48 33L52 26L56 30L60 24L64 35L68 30L72 33L76 26L80 30L84 24L88 35" fill="none" stroke="#67e8f9" stroke-width="2.35" stroke-linecap="round" stroke-linejoin="round">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-24 0" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="stroke" values="#5eead4;#38bdf8;#5eead4" dur="2.8s" repeatCount="indefinite"/>
+    </path>
+  </g>
   <text x="61" y="29" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="13.5" font-weight="800">OPEN CRYPTONITE</text>
-  <text x="61" y="47" fill="#7dd3fc" font-family="Segoe UI,Arial,sans-serif" font-size="10.5">LATEST LIVE PROJECT</text>
+  <text x="61" y="47" fill="#7dd3fc" font-family="Segoe UI,Arial,sans-serif" font-size="10.5">LATEST PROJECT</text>
+  <g>
+    <rect x="146" y="36.5" width="36" height="14" rx="7" fill="#062b27" stroke="#1f7566"/>
+    <circle cx="153" cy="43.5" r="2" fill="#34d399" filter="url(#glow)">
+      <animate attributeName="r" values="1.6;2.25;1.6" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".65;1;.65" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="159" y="46.25" fill="#a7f3d0" font-family="Segoe UI,Arial,sans-serif" font-size="7.5" font-weight="800">LIVE</text>
+  </g>
   <circle cx="229" cy="32" r="9.5" fill="#0b2935" stroke="#2b7187"><animate attributeName="stroke" values="#2b7187;#5eead4;#2b7187" dur="3s" repeatCount="indefinite"/></circle>
   <path d="M225 32h8m-3-3 3 3-3 3" fill="none" stroke="#8cf2e5" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
