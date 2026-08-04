@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Technology toolkit">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07131f"/><stop offset=".55" stop-color="#091525"/><stop offset="1" stop-color="#11122a"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#2dd4bf"/><stop offset=".5" stop-color="#38bdf8"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#7dd3fc" stop-opacity=".1"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#38bdf8" stop-opacity=".18"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="clip"><rect x="1" y="1" width="1198" height="358" rx="16"/></clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="358" rx="16" fill="url(#panel)" stroke="#22364e" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="358" rx="16" fill="none" stroke="url(#edge)" stroke-width="1.5" stroke-dasharray="50 34" opacity=".62"><animate attributeName="stroke-dashoffset" values="0;-336" dur="10s" repeatCount="indefinite"/></rect>
+  <g clip-path="url(#clip)">
+    <rect x="-230" y="1" width="170" height="358" fill="url(#scan)" transform="skewX(-16)"><animate attributeName="x" values="-230;1450" dur="8.5s" repeatCount="indefinite"/></rect>
+    <path d="M-20 337 C190 295 292 367 482 314 S823 286 1220 330" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity=".08"/>
+  </g>
+
+  <text x="32" y="37" fill="#7dd3fc" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="2">ENGINEERING TOOLKIT</text>
+  <text x="1168" y="37" fill="#718399" font-family="Consolas,monospace" font-size="11" text-anchor="end">INTERFACE / STATE / DATA / SERVER / DELIVERY</text>
+  <path d="M32 48H1168" stroke="#22364e"/>
+  <path d="M32 48H1168" stroke="url(#edge)" stroke-width="2" stroke-dasharray="120 1016"><animate attributeName="stroke-dashoffset" values="120;-1136" dur="6s" repeatCount="indefinite"/></path>
+
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <g transform="translate(32 61)">
+      <rect width="208" height="78" rx="10" fill="#0a1826" stroke="#28526b"><animate attributeName="stroke-opacity" values=".45;1;.45" dur="3s" repeatCount="indefinite"/></rect>
+      <circle cx="38" cy="39" r="30" fill="url(#halo)"/><image href="./icons/react.svg" x="16" y="17" width="44" height="44"><animateTransform attributeName="transform" type="rotate" values="0 38 39;360 38 39" dur="14s" repeatCount="indefinite"/></image>
+      <text x="73" y="34" fill="#f8fafc" font-size="15" font-weight="800">React</text><text x="73" y="55" fill="#7890a8" font-size="10">UI LIBRARY</text>
+    </g>
+    <g transform="translate(264 61)">
+      <rect width="208" height="78" rx="10" fill="#0a1826" stroke="#315f85"><animate attributeName="stroke-opacity" values=".45;1;.45" dur="3s" begin=".2s" repeatCount="indefinite"/></rect>
+      <circle cx="38" cy="39" r="30" fill="url(#halo)"/><image href="./icons/typescript.svg" x="16" y="17" width="44" height="44"/>
+      <text x="73" y="34" fill="#f8fafc" font-size="15" font-weight="800">TypeScript</text><text x="73" y="55" fill="#7890a8" font-size="10">TYPED APPLICATIONS</text>
+    </g>
+    <g transform="translate(496 61)">
+      <rect width="208" height="78" rx="10" fill="#0a1826" stroke="#5b5630"><animate attributeName="stroke-opacity" values=".45;1;.45" dur="3s" begin=".4s" repeatCount="indefinite"/></rect>
+      <circle cx="38" cy="39" r="30" fill="#f7df1e" opacity=".06"/><image href="./icons/javascript.svg" x="16" y="17" width="44" height="44"/>
+      <text x="73" y="34" fill="#f8fafc" font-size="15" font-weight="800">JavaScript</text><text x="73" y="55" fill="#928b6c" font-size="10">WEB LANGUAGE</text>
+    </g>
+    <g transform="translate(728 61)">
+      <rect width="208" height="78" rx="10" fill="#0a1826" stroke="#704130"><animate attributeName="stroke-opacity" values=".45;1;.45" dur="3s" begin=".6s" repeatCount="indefinite"/></rect>
+      <circle cx="38" cy="39" r="30" fill="#f97316" opacity=".06"/><image href="./icons/html5.svg" x="16" y="17" width="44" height="44"/>
+      <text x="73" y="34" fill="#f8fafc" font-size="15" font-weight="800">HTML5</text><text x="73" y="55" fill="#9b7c70" font-size="10">SEMANTIC STRUCTURE</text>
+    </g>
+    <g transform="translate(960 61)">
+      <rect width="208" height="78" rx="10" fill="#0a1826" stroke="#28558b"><animate attributeName="stroke-opacity" values=".45;1;.45" dur="3s" begin=".8s" repeatCount="indefinite"/></rect>
+      <circle cx="38" cy="39" r="30" fill="#1572b6" opacity=".07"/><image href="./icons/css3.svg" x="16" y="17" width="44" height="44"/>
+      <text x="73" y="34" fill="#f8fafc" font-size="15" font-weight="800">CSS3</text><text x="73" y="55" fill="#7890a8" font-size="10">RESPONSIVE STYLING</text>
+    </g>
+
+    <g transform="translate(32 156)">
+      <rect width="208" height="78" rx="10" fill="#0c1728" stroke="#62489a"><animate attributeName="stroke-opacity" values=".45;1;.45" dur="3s" begin="1s" repeatCount="indefinite"/></rect>
+      <circle cx="38" cy="39" r="30" fill="#764abc" opacity=".07"/><image href="./icons/redux.svg" x="16" y="17" width="44" height="44"/>
+      <text x="73" y="34" fill="#f8fafc" font-size="15" font-weight="800">Redux Toolkit</text><text x="73" y="55" fill="#8f84a5" font-size="10">GLOBAL STATE</text>
+    </g>
+    <g transform="translate(264 156)">
+      <rect width="208" height="78" rx="10" fill="#0c1728" stroke="#7b3342"><animate attributeName="stroke-opacity" values=".45;1;.45" dur="3s" begin="1.2s" repeatCount="indefinite"/></rect>
+      <circle cx="38" cy="39" r="30" fill="#ca4245" opacity=".06"/><image href="./icons/reactrouter.svg" x="16" y="17" width="44" height="44"/>
+      <text x="73" y="34" fill="#f8fafc" font-size="15" font-weight="800">React Router</text><text x="73" y="55" fill="#98757c" font-size="10">CLIENT ROUTING</text>
+    </g>
+    <g transform="translate(496 156)">
+      <rect width="208" height="78" rx="10" fill="#0c1728" stroke="#534594"><animate attributeName="stroke-opacity" values=".45;1;.45" dur="3s" begin="1.4s" repeatCount="indefinite"/></rect>
+      <circle cx="38" cy="39" r="30" fill="#5a29e4" opacity=".07"/><image href="./icons/axios.svg" x="16" y="17" width="44" height="44"/>
+      <text x="73" y="34" fill="#f8fafc" font-size="15" font-weight="800">Axios</text><text x="73" y="55" fill="#8f84a5" font-size="10">HTTP CLIENT</text>
+    </g>
+    <g transform="translate(728 156)">
+      <rect width="208" height="78" rx="10" fill="#0c1728" stroke="#1f6975"><animate attributeName="stroke-opacity" values=".45;1;.45" dur="3s" begin="1.6s" repeatCount="indefinite"/></rect>
+      <circle cx="38" cy="39" r="30" fill="#22b5bf" opacity=".07"/><image href="./icons/recharts.png" x="16" y="17" width="44" height="44"/>
+      <text x="73" y="34" fill="#f8fafc" font-size="15" font-weight="800">Recharts</text><text x="73" y="55" fill="#708f96" font-size="10">DATA VISUALIZATION</text>
+    </g>
+    <g transform="translate(960 156)">
+      <rect width="208" height="78" rx="10" fill="#0c1728" stroke="#6552a1"><animate attributeName="stroke-opacity" values=".45;1;.45" dur="3s" begin="1.8s" repeatCount="indefinite"/></rect>
+      <circle cx="38" cy="39" r="30" fill="#8b5cf6" opacity=".07"/><image href="./icons/vite.svg" x="16" y="17" width="44" height="44"/>
+      <text x="73" y="34" fill="#f8fafc" font-size="15" font-weight="800">Vite</text><text x="73" y="55" fill="#8f84a5" font-size="10">BUILD TOOLING</text>
+    </g>
+
+    <g transform="translate(32 251)">
+      <rect width="208" height="78" rx="10" fill="#0a1924" stroke="#386c35"><animate attributeName="stroke-opacity" values=".45;1;.45" dur="3s" begin="2s" repeatCount="indefinite"/></rect>
+      <circle cx="38" cy="39" r="30" fill="#68a063" opacity=".07"/><image href="./icons/nodejs.svg" x="16" y="17" width="44" height="44"/>
+      <text x="73" y="34" fill="#f8fafc" font-size="15" font-weight="800">Node.js</text><text x="73" y="55" fill="#7f967d" font-size="10">SERVER RUNTIME</text>
+    </g>
+    <g transform="translate(264 251)">
+      <rect width="208" height="78" rx="10" fill="#0a1924" stroke="#3c4b5d"><animate attributeName="stroke-opacity" values=".45;1;.45" dur="3s" begin="2.2s" repeatCount="indefinite"/></rect>
+      <circle cx="38" cy="39" r="30" fill="#ffffff" opacity=".04"/><image href="./icons/express.svg" x="16" y="17" width="44" height="44"/>
+      <text x="73" y="34" fill="#f8fafc" font-size="15" font-weight="800">Express</text><text x="73" y="55" fill="#7d8998" font-size="10">WEB FRAMEWORK</text>
+    </g>
+    <g transform="translate(496 251)">
+      <rect width="208" height="78" rx="10" fill="#0a1924" stroke="#2c6580"><animate attributeName="stroke-opacity" values=".45;1;.45" dur="3s" begin="2.4s" repeatCount="indefinite"/></rect>
+      <circle cx="38" cy="39" r="30" fill="#4479a1" opacity=".07"/><image href="./icons/mysql.svg" x="16" y="17" width="44" height="44"/>
+      <text x="73" y="34" fill="#f8fafc" font-size="15" font-weight="800">MySQL</text><text x="73" y="55" fill="#7890a8" font-size="10">RELATIONAL DATA</text>
+    </g>
+    <g transform="translate(728 251)">
+      <rect width="208" height="78" rx="10" fill="#0a1924" stroke="#824633"><animate attributeName="stroke-opacity" values=".45;1;.45" dur="3s" begin="2.6s" repeatCount="indefinite"/></rect>
+      <circle cx="38" cy="39" r="30" fill="#f05032" opacity=".06"/><image href="./icons/git.svg" x="16" y="17" width="44" height="44"/>
+      <text x="73" y="34" fill="#f8fafc" font-size="15" font-weight="800">Git</text><text x="73" y="55" fill="#9b7c70" font-size="10">VERSION CONTROL</text>
+    </g>
+    <g transform="translate(960 251)">
+      <rect width="208" height="78" rx="10" fill="#0a1924" stroke="#4a5263"><animate attributeName="stroke-opacity" values=".45;1;.45" dur="3s" begin="2.8s" repeatCount="indefinite"/></rect>
+      <circle cx="38" cy="39" r="30" fill="#ffffff" opacity=".045"/><image href="./icons/vercel.svg" x="16" y="17" width="44" height="44"/>
+      <text x="73" y="34" fill="#f8fafc" font-size="15" font-weight="800">Vercel</text><text x="73" y="55" fill="#7d8998" font-size="10">DEPLOY PLATFORM</text>
+    </g>
+  </g>
+
+  <circle cx="23" cy="48" r="3" fill="#2dd4bf" filter="url(#glow)"><animate attributeName="cx" values="23;1177;23" dur="6s" repeatCount="indefinite"/></circle>
+</svg>

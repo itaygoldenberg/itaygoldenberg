@@ -1,16 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="230" height="56" viewBox="0 0 230 56" role="img" aria-label="Connect on LinkedIn">
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="64" viewBox="0 0 250 64" role="img" aria-label="Connect on LinkedIn">
   <defs>
-    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0a66c2"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
-    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".16"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
-    <clipPath id="clip"><rect x="1" y="1" width="228" height="54" rx="8"/></clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08213a"/><stop offset="1" stop-color="#091827"/></linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a66c2"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#7dd3fc" stop-opacity=".14"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <filter id="glow" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="clip"><rect x="1" y="1" width="248" height="62" rx="11"/></clipPath>
   </defs>
-  <rect x="1" y="1" width="228" height="54" rx="8" fill="#092038" stroke="#1769aa" />
-  <path d="M2 2H228" stroke="url(#brand)" stroke-width="2" stroke-dasharray="58 170"><animate attributeName="stroke-dashoffset" values="58;-228" dur="3.8s" repeatCount="indefinite"/></path>
-  <g clip-path="url(#clip)"><rect x="-70" y="1" width="56" height="54" fill="url(#scan)" transform="skewX(-18)"><animate attributeName="x" values="-70;270" dur="4s" begin="1s" repeatCount="indefinite"/></rect></g>
-  <rect x="20" y="13" width="30" height="30" rx="7" fill="url(#brand)"><animate attributeName="rx" values="7;11;7" dur="3s" repeatCount="indefinite"/></rect>
-  <text x="35" y="35" fill="#ffffff" font-family="Arial,sans-serif" font-size="20" font-weight="800" text-anchor="middle">in</text>
-  <text x="60" y="26" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="800">CONNECT ON LINKEDIN</text>
-  <text x="60" y="42" fill="#7dd3fc" font-family="Segoe UI,Arial,sans-serif" font-size="10">ITAY GOLDENBERG</text>
-  <circle cx="210" cy="28" r="9" fill="#0a2b49" stroke="#2f8de4"><animate attributeName="r" values="8.5;10;8.5" dur="2.4s" repeatCount="indefinite"/></circle>
-  <path d="M206 28h7m-3-3 3 3-3 3" fill="none" stroke="#bfdbfe" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="1" y="1" width="248" height="62" rx="11" fill="url(#bg)" stroke="#1670b8" stroke-width="1.5"/>
+  <rect x="1" y="1" width="248" height="62" rx="11" fill="none" stroke="url(#brand)" stroke-width="1.5" stroke-dasharray="76 544" opacity=".85"><animate attributeName="stroke-dashoffset" values="76;-544" dur="5.3s" repeatCount="indefinite"/></rect>
+  <g clip-path="url(#clip)"><rect x="-72" y="1" width="54" height="62" fill="url(#scan)" transform="skewX(-16)"><animate attributeName="x" values="-72;300" dur="4.9s" begin="1s" repeatCount="indefinite"/></rect></g>
+  <rect x="16" y="13" width="38" height="38" rx="10" fill="url(#brand)" filter="url(#glow)"/>
+  <text x="35" y="41" fill="#ffffff" font-family="Arial,sans-serif" font-size="25" font-weight="800" text-anchor="middle">in</text>
+  <text x="64" y="29" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="12.2" font-weight="800">CONNECT ON LINKEDIN</text>
+  <text x="64" y="47" fill="#7dd3fc" font-family="Segoe UI,Arial,sans-serif" font-size="10.5">ITAY GOLDENBERG</text>
+  <circle cx="229" cy="32" r="9.5" fill="#0a2c4a" stroke="#4299dc"><animate attributeName="stroke" values="#4299dc;#93c5fd;#4299dc" dur="3s" repeatCount="indefinite"/></circle>
+  <path d="M225 32h8m-3-3 3 3-3 3" fill="none" stroke="#dbeafe" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

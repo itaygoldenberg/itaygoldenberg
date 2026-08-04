@@ -1,16 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="230" height="56" viewBox="0 0 230 56" role="img" aria-label="Open Cryptonite">
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="64" viewBox="0 0 250 64" role="img" aria-label="Open Cryptonite">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#14b8a6"/><stop offset="1" stop-color="#3b82f6"/></linearGradient>
-    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".16"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
-    <clipPath id="clip"><rect x="1" y="1" width="228" height="54" rx="8"/></clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071823"/><stop offset="1" stop-color="#0a1727"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#2dd4bf"/><stop offset=".55" stop-color="#38bdf8"/><stop offset="1" stop-color="#6366f1"/></linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#8cf2e5" stop-opacity=".14"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="clip"><rect x="1" y="1" width="248" height="62" rx="11"/></clipPath>
   </defs>
-  <rect x="1" y="1" width="228" height="54" rx="8" fill="#081724" stroke="#1d5268" />
-  <g clip-path="url(#clip)"><rect x="-70" y="1" width="56" height="54" fill="url(#scan)" transform="skewX(-18)"><animate attributeName="x" values="-70;270" dur="3.8s" repeatCount="indefinite"/></rect></g>
-  <rect x="1" y="1" width="5" height="54" rx="3" fill="url(#g)"><animate attributeName="height" values="22;54;22" dur="2.8s" repeatCount="indefinite"/></rect>
-  <path d="M28 36V20h17v16M31 31l4-5 4 3 4-6" fill="none" stroke="#5eead4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-  <circle cx="43" cy="23" r="2.5" fill="#60a5fa"><animate attributeName="opacity" values="1;.2;1" dur="1.6s" repeatCount="indefinite"/><animate attributeName="r" values="2.5;4;2.5" dur="1.6s" repeatCount="indefinite"/></circle>
-  <text x="60" y="26" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="800">OPEN CRYPTONITE</text>
-  <text x="60" y="42" fill="#7dd3fc" font-family="Segoe UI,Arial,sans-serif" font-size="10">LATEST LIVE PROJECT</text>
-  <circle cx="210" cy="28" r="9" fill="#0c2533" stroke="#2b7088"><animate attributeName="stroke-opacity" values=".45;1;.45" dur="2s" repeatCount="indefinite"/></circle>
-  <path d="M206 28h7m-3-3 3 3-3 3" fill="none" stroke="#8cf2e5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="1" y="1" width="248" height="62" rx="11" fill="url(#bg)" stroke="#24556b" stroke-width="1.5"/>
+  <rect x="1" y="1" width="248" height="62" rx="11" fill="none" stroke="url(#edge)" stroke-width="1.5" stroke-dasharray="76 544" opacity=".9"><animate attributeName="stroke-dashoffset" values="76;-544" dur="5.2s" repeatCount="indefinite"/></rect>
+  <g clip-path="url(#clip)"><rect x="-72" y="1" width="54" height="62" fill="url(#scan)" transform="skewX(-16)"><animate attributeName="x" values="-72;300" dur="4.8s" repeatCount="indefinite"/></rect></g>
+  <rect x="1" y="1" width="6" height="62" rx="3" fill="url(#edge)"/>
+  <rect x="2.5" y="10" width="3" height="44" rx="1.5" fill="#d7fffa" opacity=".42"><animate attributeName="opacity" values=".18;.75;.18" dur="2.6s" repeatCount="indefinite"/></rect>
+  <path d="M25 41V22h21v19M29 35l5-6 5 4 6-9" fill="none" stroke="#5eead4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="45" cy="24" r="3" fill="#60a5fa" filter="url(#glow)"><animate attributeName="opacity" values="1;.3;1" dur="1.8s" repeatCount="indefinite"/></circle>
+  <text x="61" y="29" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="13.5" font-weight="800">OPEN CRYPTONITE</text>
+  <text x="61" y="47" fill="#7dd3fc" font-family="Segoe UI,Arial,sans-serif" font-size="10.5">LATEST LIVE PROJECT</text>
+  <circle cx="229" cy="32" r="9.5" fill="#0b2935" stroke="#2b7187"><animate attributeName="stroke" values="#2b7187;#5eead4;#2b7187" dur="3s" repeatCount="indefinite"/></circle>
+  <path d="M225 32h8m-3-3 3 3-3 3" fill="none" stroke="#8cf2e5" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

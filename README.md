@@ -5,15 +5,9 @@
 </p>
 
 <p align="center">
-  <a href="https://cryptonite-amber.vercel.app/home">
-    <img src="./assets/actions/cryptonite.svg" alt="Open Cryptonite" width="230" />
-  </a>
-  <a href="https://github.com/itaygoldenberg?tab=repositories">
-    <img src="./assets/actions/repositories.svg" alt="Browse repositories" width="230" />
-  </a>
-  <a href="https://www.linkedin.com/in/itay-goldenberg/">
-    <img src="./assets/actions/linkedin.svg" alt="Connect on LinkedIn" width="230" />
-  </a>
+  <a href="https://cryptonite-amber.vercel.app/home"><img src="./assets/actions/cryptonite.svg" alt="Open Cryptonite" width="240" /></a>
+  <a href="https://github.com/itaygoldenberg?tab=repositories"><img src="./assets/actions/repositories.svg" alt="Browse repositories" width="240" /></a>
+  <a href="https://www.linkedin.com/in/itay-goldenberg/"><img src="./assets/actions/linkedin.svg" alt="Connect on LinkedIn" width="240" /></a>
 </p>
 
 <p align="center">
@@ -53,29 +47,9 @@ I am a Full Stack Developer based in Israel, focused on building clean, responsi
 
 ## Toolkit
 
-<table>
-  <tr>
-    <td align="center" width="20%"><img src="./assets/icons/react.svg" alt="React" width="46" height="46" /><br /><strong>React</strong></td>
-    <td align="center" width="20%"><img src="./assets/icons/typescript.svg" alt="TypeScript" width="46" height="46" /><br /><strong>TypeScript</strong></td>
-    <td align="center" width="20%"><img src="./assets/icons/javascript.svg" alt="JavaScript" width="46" height="46" /><br /><strong>JavaScript</strong></td>
-    <td align="center" width="20%"><img src="./assets/icons/html5.svg" alt="HTML5" width="46" height="46" /><br /><strong>HTML5</strong></td>
-    <td align="center" width="20%"><img src="./assets/icons/css3.svg" alt="CSS3" width="46" height="46" /><br /><strong>CSS3</strong></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="./assets/icons/redux.svg" alt="Redux Toolkit" width="46" height="46" /><br /><strong>Redux Toolkit</strong></td>
-    <td align="center"><img src="./assets/icons/reactrouter.svg" alt="React Router" width="46" height="46" /><br /><strong>React Router</strong></td>
-    <td align="center"><img src="./assets/icons/axios.svg" alt="Axios" width="50" height="46" /><br /><strong>Axios</strong></td>
-    <td align="center"><img src="./assets/icons/recharts.png" alt="Recharts" width="46" height="46" /><br /><strong>Recharts</strong></td>
-    <td align="center"><img src="./assets/icons/vite.svg" alt="Vite" width="46" height="46" /><br /><strong>Vite</strong></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="./assets/icons/nodejs.svg" alt="Node.js" width="46" height="46" /><br /><strong>Node.js</strong></td>
-    <td align="center"><img src="./assets/icons/express.svg" alt="Express" width="46" height="46" /><br /><strong>Express</strong></td>
-    <td align="center"><img src="./assets/icons/mysql.svg" alt="MySQL" width="46" height="46" /><br /><strong>MySQL</strong></td>
-    <td align="center"><img src="./assets/icons/git.svg" alt="Git" width="46" height="46" /><br /><strong>Git</strong></td>
-    <td align="center"><img src="./assets/icons/vercel.svg" alt="Vercel" width="46" height="46" /><br /><strong>Vercel</strong></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./assets/toolkit-stage.svg" alt="Animated engineering toolkit with original technology logos" width="100%" />
+</p>
 
 ## Featured Work
 
