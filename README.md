@@ -24,22 +24,9 @@
 
 I am a Full Stack Developer based in Israel, focused on building clean, responsive web applications with thoughtful architecture and polished user experiences. I enjoy turning product ideas into complete interfaces, connecting them to reliable data flows, and refining the details that make software feel considered.
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <strong>Interface engineering</strong><br />
-      <sub>Responsive React experiences, reusable components and deliberate interaction design.</sub>
-    </td>
-    <td width="33%" valign="top">
-      <strong>Application architecture</strong><br />
-      <sub>Typed models, routing, global state and clear separation between UI and services.</sub>
-    </td>
-    <td width="33%" valign="top">
-      <strong>APIs and data</strong><br />
-      <sub>REST integrations, real-time market streams, Express services and MySQL workflows.</sub>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./assets/capability-matrix.svg" alt="Interface engineering, application architecture, and API data capabilities" width="100%" />
+</p>
 
 <p align="center">
   <img src="./assets/engineering-flow.svg" alt="Animated engineering delivery workflow" width="100%" />
@@ -89,14 +76,15 @@ I am a Full Stack Developer based in Israel, focused on building clean, responsi
 
 ## Engineering Approach
 
-- Build for clarity first: readable code, focused components and predictable data flow.
-- Treat responsive behavior and accessibility as product requirements.
-- Keep secrets outside browser bundles and shape external data behind service boundaries.
-- Verify the complete workflow, from local development to the deployed experience.
+<p align="center">
+  <img src="./assets/engineering-principles.svg" alt="Engineering principles: clarity, accessibility, secure boundaries, and complete verification" width="100%" />
+</p>
 
 ## Connect
 
-I am always glad to connect with developers, exchange ideas and talk about thoughtful web products.
+<p align="center">
+  <a href="https://www.linkedin.com/in/itay-goldenberg/"><img src="./assets/connect-console.svg" alt="Available to connect about full stack engineering and thoughtful web products" width="100%" /></a>
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/itay-goldenberg/">LinkedIn</a>
@@ -104,8 +92,4 @@ I am always glad to connect with developers, exchange ideas and talk about thoug
   <a href="https://github.com/itaygoldenberg?tab=repositories">All repositories</a>
   &nbsp;&middot;&nbsp;
   <a href="https://cryptonite-amber.vercel.app/home">Latest live project</a>
-</p>
-
-<p align="center">
-  <img src="./assets/footer.svg" alt="Build, learn, refine, ship" width="100%" />
 </p>

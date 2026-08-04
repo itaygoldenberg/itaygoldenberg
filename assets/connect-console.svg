@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" role="img" aria-label="Available to connect about full stack engineering and thoughtful web products">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#06131f" />
+      <stop offset="0.58" stop-color="#091526" />
+      <stop offset="1" stop-color="#13122d" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#2dd4bf" />
+      <stop offset="0.52" stop-color="#38bdf8" />
+      <stop offset="1" stop-color="#8b5cf6" />
+    </linearGradient>
+    <linearGradient id="button" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#0d3b3b" />
+      <stop offset="1" stop-color="#123252" />
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="0.5" stop-color="#7dd3fc" stop-opacity="0.12" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <clipPath id="clip"><rect x="1" y="1" width="1198" height="208" rx="16" /></clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="208" rx="16" fill="url(#panel)" stroke="#21344c" stroke-width="2" />
+  <rect x="1" y="1" width="1198" height="208" rx="16" fill="none" stroke="url(#accent)" stroke-width="2" stroke-dasharray="64 30" opacity="0.68">
+    <animate attributeName="stroke-dashoffset" values="0;-376" dur="10s" repeatCount="indefinite" />
+  </rect>
+  <g clip-path="url(#clip)">
+    <path d="M-40 177 C160 123 292 196 462 145 S770 83 930 137 S1090 173 1240 92" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.1" />
+    <rect x="-220" y="1" width="180" height="208" fill="url(#scan)" transform="skewX(-17)">
+      <animate attributeName="x" values="-220;1400" dur="8s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <g transform="translate(42 28)" font-family="Segoe UI,Arial,sans-serif">
+    <rect width="188" height="28" rx="7" fill="#0c2928" stroke="#246d61" />
+    <circle cx="17" cy="14" r="4" fill="#34d399" filter="url(#glow)">
+      <animate attributeName="r" values="3.2;5;3.2" dur="1.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values=".55;1;.55" dur="1.8s" repeatCount="indefinite" />
+    </circle>
+    <text x="31" y="19" fill="#a7f3d0" font-size="12" font-weight="800">AVAILABLE TO CONNECT</text>
+  </g>
+
+  <text x="42" y="91" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="32" font-weight="800">Let's build something thoughtful.</text>
+  <text x="42" y="119" fill="#a8b8ce" font-family="Segoe UI,Arial,sans-serif" font-size="15">Open to engineering conversations, collaboration and polished web products.</text>
+
+  <g transform="translate(42 140)" font-family="Segoe UI,Arial,sans-serif">
+    <rect width="252" height="42" rx="9" fill="url(#button)" stroke="#2b7187" stroke-width="1.5" />
+    <rect x="1" y="1" width="250" height="40" rx="8" fill="none" stroke="url(#accent)" stroke-dasharray="58 194" opacity="0.7">
+      <animate attributeName="stroke-dashoffset" values="58;-252" dur="4.5s" repeatCount="indefinite" />
+    </rect>
+    <path d="M22 14h20v14H26l-5 4V14h1z" fill="none" stroke="#8cf2e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="58" y="26" fill="#f8fafc" font-size="13" font-weight="800">START A CONVERSATION</text>
+    <circle cx="226" cy="21" r="9" fill="#0b2935" stroke="#2b7187" />
+    <path d="M222 21h8m-3-3 3 3-3 3" fill="none" stroke="#8cf2e5" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <g transform="translate(735 31)" font-family="Consolas,monospace">
+    <rect width="423" height="151" rx="12" fill="#07121f" stroke="#273b56" />
+    <circle cx="20" cy="19" r="3.5" fill="#fb7185" />
+    <circle cx="34" cy="19" r="3.5" fill="#fbbf24" />
+    <circle cx="48" cy="19" r="3.5" fill="#34d399" />
+    <text x="68" y="23" fill="#718399" font-size="11">contact.profile</text>
+    <line x1="20" y1="38" x2="403" y2="38" stroke="#1e3047" />
+    <text x="25" y="67" fill="#718399" font-size="12">location</text>
+    <text x="139" y="67" fill="#d7e2f0" font-size="12">Israel</text>
+    <text x="25" y="94" fill="#718399" font-size="12">focus</text>
+    <text x="139" y="94" fill="#7dd3fc" font-size="12">Full Stack + Product UI</text>
+    <text x="25" y="121" fill="#718399" font-size="12">channel</text>
+    <text x="139" y="121" fill="#c4b5fd" font-size="12">LinkedIn / GitHub</text>
+    <text x="25" y="145" fill="#34d399" font-size="12">$ ready_to_connect</text>
+    <rect x="167" y="134" width="8" height="14" rx="1" fill="#7dd3fc">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+    </rect>
+  </g>
+</svg>
