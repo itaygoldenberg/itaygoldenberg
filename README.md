@@ -5,15 +5,18 @@
 </p>
 
 <p align="center">
-  <a href="https://cryptonite-amber.vercel.app/home"><img src="./assets/actions/cryptonite.svg" alt="Open Cryptonite" width="240" /></a>
-  <a href="https://github.com/itaygoldenberg?tab=repositories"><img src="./assets/actions/repositories.svg" alt="Browse repositories" width="240" /></a>
-  <a href="https://www.linkedin.com/in/itay-goldenberg/"><img src="./assets/actions/linkedin.svg" alt="Connect on LinkedIn" width="240" /></a>
+  <a href="https://cryptonite-amber.vercel.app/home"><img src="./assets/actions/cryptonite.svg" alt="Open Cryptonite" width="205" /></a>
+  <a href="https://www.npmjs.com/~itaygoldenberg"><img src="./assets/actions/npm.svg" alt="Explore npm packages" width="205" /></a>
+  <a href="https://github.com/itaygoldenberg?tab=repositories"><img src="./assets/actions/repositories.svg" alt="Browse repositories" width="205" /></a>
+  <a href="https://www.linkedin.com/in/itay-goldenberg/"><img src="./assets/actions/linkedin.svg" alt="Connect on LinkedIn" width="205" /></a>
 </p>
 
 <p align="center">
   <a href="#about">About</a>
   &nbsp;&middot;&nbsp;
   <a href="#toolkit">Toolkit</a>
+  &nbsp;&middot;&nbsp;
+  <a href="#latest-work">Latest work</a>
   &nbsp;&middot;&nbsp;
   <a href="#featured-work">Featured work</a>
   &nbsp;&middot;&nbsp;
@@ -22,7 +25,7 @@
 
 ## About
 
-I am a Full Stack Developer based in Israel, focused on building clean, responsive web applications with thoughtful architecture and polished user experiences. I enjoy turning product ideas into complete interfaces, connecting them to reliable data flows, and refining the details that make software feel considered.
+I am a Full Stack Developer based in Israel, focused on building clean, responsive web applications with thoughtful architecture and polished user experiences. I enjoy turning product ideas into complete interfaces, connecting them to reliable data flows, and refining the details that make software feel considered. Lately, I have also been shipping focused TypeScript utilities and command-line tools to npm.
 
 <p align="center">
   <img src="./assets/capability-matrix.svg" alt="Interface engineering, application architecture, and API data capabilities" width="100%" />
@@ -37,6 +40,20 @@ I am a Full Stack Developer based in Israel, focused on building clean, responsi
 <p align="center">
   <img src="./assets/toolkit-stage.svg" alt="Animated engineering toolkit with original technology logos" width="100%" />
 </p>
+
+## Latest Work
+
+<p align="center">
+  <a href="https://www.npmjs.com/~itaygoldenberg"><img src="./assets/projects/typescript-utilities.svg" alt="Four TypeScript utilities published in September 2026" width="82%" /></a><br />
+  <a href="https://www.npmjs.com/~itaygoldenberg">npm packages</a> &nbsp;|&nbsp; <a href="https://github.com/itaygoldenberg?tab=repositories&amp;sort=updated">latest repositories</a>
+</p>
+
+Four small packages, each built around one clear job:
+
+- [`itay-singleton`](https://github.com/itaygoldenberg/itay-singleton) — generate a correctly named TypeScript singleton file from one command.
+- [`itay-random-color`](https://github.com/itaygoldenberg/itay-random-color) — return a zero-padded, six-digit random hex color with no runtime dependencies.
+- [`itay-color-printer`](https://github.com/itaygoldenberg/itay-color-printer) — print terminal messages in red, green, blue, or yellow through a typed API.
+- [`itay-time-art`](https://github.com/itaygoldenberg/itay-time-art) — render the current time, date, or both as terminal ASCII art.
 
 ## Featured Work
 
@@ -90,6 +107,8 @@ I am a Full Stack Developer based in Israel, focused on building clean, responsi
   <a href="https://www.linkedin.com/in/itay-goldenberg/">LinkedIn</a>
   &nbsp;&middot;&nbsp;
   <a href="https://github.com/itaygoldenberg?tab=repositories">All repositories</a>
+  &nbsp;&middot;&nbsp;
+  <a href="https://www.npmjs.com/~itaygoldenberg">npm packages</a>
   &nbsp;&middot;&nbsp;
   <a href="https://cryptonite-amber.vercel.app/home">Latest live project</a>
 </p>

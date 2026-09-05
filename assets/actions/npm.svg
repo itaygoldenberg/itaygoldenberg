@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="64" viewBox="0 0 250 64" role="img" aria-label="Explore npm packages">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#201017"/><stop offset="1" stop-color="#101827"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#fb7185"/><stop offset=".52" stop-color="#ef4444"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fb7185" stop-opacity=".14"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <clipPath id="clip"><rect x="1" y="1" width="248" height="62" rx="11"/></clipPath>
+  </defs>
+  <rect x="1" y="1" width="248" height="62" rx="11" fill="url(#bg)" stroke="#713d57" stroke-width="1.5"/>
+  <rect x="1" y="1" width="248" height="62" rx="11" fill="none" stroke="url(#edge)" stroke-width="1.5" stroke-dasharray="76 544" opacity=".85"><animate attributeName="stroke-dashoffset" values="76;-544" dur="5.2s" repeatCount="indefinite"/></rect>
+  <g clip-path="url(#clip)"><rect x="-72" y="1" width="54" height="62" fill="url(#scan)" transform="skewX(-16)"><animate attributeName="x" values="-72;300" dur="4.8s" begin=".3s" repeatCount="indefinite"/></rect></g>
+  <rect x="17" y="22" width="34" height="20" rx="3" fill="#cb3837"/>
+  <path d="M23 27h22v10h-6v-7h-4v7H23z" fill="#ffffff"/>
+  <text x="61" y="29" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="13.5" font-weight="800">EXPLORE NPM TOOLS</text>
+  <text x="61" y="47" fill="#fda4af" font-family="Segoe UI,Arial,sans-serif" font-size="10.5">TYPESCRIPT UTILITIES</text>
+  <circle cx="229" cy="32" r="9.5" fill="#2b1720" stroke="#a34b64"><animate attributeName="stroke" values="#a34b64;#fb7185;#a34b64" dur="3s" repeatCount="indefinite"/></circle>
+  <path d="M225 32h8m-3-3 3 3-3 3" fill="none" stroke="#fecdd3" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
