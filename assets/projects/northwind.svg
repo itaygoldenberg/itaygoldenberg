@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="245" viewBox="0 0 560 245" role="img" aria-label="Northwind project">
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="289" viewBox="0 0 560 289" role="img" aria-label="Northwind project">
   <defs>
     <linearGradient id="border" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#34d399"/><stop offset=".55" stop-color="#22d3ee"/><stop offset="1" stop-color="#60a5fa"/></linearGradient>
     <linearGradient id="icon" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#064e3b"/><stop offset="1" stop-color="#075985"/></linearGradient>
     <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#6ee7b7" stop-opacity=".1"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <clipPath id="clip"><rect x="1.5" y="1.5" width="557" height="242" rx="16"/></clipPath>
+    <clipPath id="clip"><rect x="1.5" y="1.5" width="557" height="286" rx="16"/></clipPath>
   </defs>
-  <rect x="1.5" y="1.5" width="557" height="242" rx="16" fill="#081421" stroke="url(#border)" stroke-width="2" />
-  <g clip-path="url(#clip)"><rect x="-130" y="2" width="96" height="240" fill="url(#scan)" transform="skewX(-14)"><animate attributeName="x" values="-130;700" dur="6.6s" begin=".5s" repeatCount="indefinite"/></rect></g>
-  <rect x="2.5" y="2.5" width="555" height="240" rx="15" fill="none" stroke="url(#border)" stroke-width="1" stroke-dasharray="20 28" opacity=".5"><animate attributeName="stroke-dashoffset" values="0;-192" dur="7.4s" repeatCount="indefinite"/></rect>
+  <rect x="1.5" y="1.5" width="557" height="286" rx="16" fill="#081421" stroke="url(#border)" stroke-width="2" />
+  <g clip-path="url(#clip)"><rect x="-130" y="2" width="96" height="284" fill="url(#scan)" transform="skewX(-14)"><animate attributeName="x" values="-130;700" dur="6.6s" begin=".5s" repeatCount="indefinite"/></rect></g>
+  <rect x="2.5" y="2.5" width="555" height="284" rx="15" fill="none" stroke="url(#border)" stroke-width="1" stroke-dasharray="20 28" opacity=".5"><animate attributeName="stroke-dashoffset" values="0;-192" dur="7.4s" repeatCount="indefinite"/></rect>
   <path d="M24 18 H536" stroke="#20364d" stroke-width="2" />
   <path d="M24 18 H536" stroke="url(#border)" stroke-width="2" stroke-dasharray="512" stroke-dashoffset="512"><animate attributeName="stroke-dashoffset" values="512;0;0" keyTimes="0;.72;1" dur="5.2s" repeatCount="indefinite"/></path>
   <rect x="30" y="38" width="68" height="68" rx="12" fill="url(#icon)"><animate attributeName="opacity" values=".78;1;.78" dur="3.2s" repeatCount="indefinite"/></rect>
@@ -24,10 +24,15 @@
   <path d="M30 179H527" stroke="url(#border)" stroke-width="1" opacity=".22"/><circle cy="179" r="3" fill="#6ee7b7" filter="url(#glow)"><animate attributeName="cx" values="30;527;30" dur="5.8s" begin=".4s" repeatCount="indefinite"/></circle>
   <g font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="700">
     <rect x="30" y="192" width="76" height="28" rx="7" fill="#10253a" stroke="#245174"/><text x="68" y="210" fill="#7dd3fc" text-anchor="middle">REACT</text>
-    <rect x="116" y="192" width="82" height="28" rx="7" fill="#102c22" stroke="#2d7658"/><text x="157" y="210" fill="#86efac" text-anchor="middle">NODE.JS</text>
-    <rect x="208" y="192" width="84" height="28" rx="7" fill="#151923" stroke="#4b5563"/><text x="250" y="210" fill="#e5e7eb" text-anchor="middle">EXPRESS</text>
-    <rect x="302" y="192" width="96" height="28" rx="7" fill="#0e2535" stroke="#2f6d8a"/><text x="350" y="210" fill="#67e8f9" text-anchor="middle">SQL + MONGO</text>
-    <rect x="408" y="192" width="74" height="28" rx="7" fill="#0d2233" stroke="#2496ed"/><text x="445" y="210" fill="#8fd0ff" text-anchor="middle">DOCKER</text>
+    <rect x="116" y="192" width="104" height="28" rx="7" fill="#0e1d33" stroke="#2f5f9e"/><text x="168" y="210" fill="#93c5fd" text-anchor="middle">TYPESCRIPT</text>
+    <rect x="230" y="192" width="76" height="28" rx="7" fill="#1d1430" stroke="#5b4a8f"/><text x="268" y="210" fill="#c4b5fd" text-anchor="middle">REDUX</text>
+    <rect x="316" y="192" width="82" height="28" rx="7" fill="#102c22" stroke="#2d7658"/><text x="357" y="210" fill="#86efac" text-anchor="middle">NODE.JS</text>
+    <rect x="408" y="192" width="84" height="28" rx="7" fill="#151923" stroke="#4b5563"/><text x="450" y="210" fill="#e5e7eb" text-anchor="middle">EXPRESS</text>
+    <rect x="30" y="226" width="76" height="28" rx="7" fill="#0d2430" stroke="#2b6b7d"/><text x="68" y="244" fill="#7fd8e8" text-anchor="middle">MYSQL</text>
+    <rect x="116" y="226" width="94" height="28" rx="7" fill="#0f2a1c" stroke="#2f7a45"/><text x="163" y="244" fill="#86efac" text-anchor="middle">MONGODB</text>
+    <rect x="220" y="226" width="94" height="28" rx="7" fill="#1a1d22" stroke="#5b6470"/><text x="267" y="244" fill="#d5dbe4" text-anchor="middle">SOCKET.IO</text>
+    <rect x="324" y="226" width="84" height="28" rx="7" fill="#241428" stroke="#7a4a8a"/><text x="366" y="244" fill="#e9b8f5" text-anchor="middle">AI + MCP</text>
+    <rect x="418" y="226" width="74" height="28" rx="7" fill="#0d2233" stroke="#2496ed"/><text x="455" y="244" fill="#8fd0ff" text-anchor="middle">DOCKER</text>
   </g>
-  <circle cx="517" cy="148" r="17" fill="#10263a" stroke="#2e6b91"><animate attributeName="r" values="16;18;16" dur="2.6s" repeatCount="indefinite"/><animate attributeName="stroke" values="#2e6b91;#34d399;#2e6b91" dur="3.8s" repeatCount="indefinite"/></circle><path d="M510 148h13m-5-5 5 5-5 5" fill="none" stroke="#7dd3fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="517" cy="240" r="17" fill="#10263a" stroke="#2e6b91"><animate attributeName="r" values="16;18;16" dur="2.6s" repeatCount="indefinite"/><animate attributeName="stroke" values="#2e6b91;#34d399;#2e6b91" dur="3.8s" repeatCount="indefinite"/></circle><path d="M510 240h13m-5-5 5 5-5 5" fill="none" stroke="#7dd3fc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

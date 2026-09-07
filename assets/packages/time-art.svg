@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="232" viewBox="0 0 560 232" role="img" aria-label="itay-time-art on npm">
+  <defs>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f87171"/><stop offset=".55" stop-color="#fb923c"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <linearGradient id="icon" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#3f1014"/><stop offset="1" stop-color="#2a1533"/></linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fca5a5" stop-opacity=".1"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="clip"><rect x="1.5" y="1.5" width="557" height="229" rx="16"/></clipPath>
+  </defs>
+  <rect x="1.5" y="1.5" width="557" height="229" rx="16" fill="#0f0a12" stroke="url(#border)" stroke-width="2"/>
+  <g clip-path="url(#clip)"><rect x="-130" y="2" width="96" height="228" fill="url(#scan)" transform="skewX(-14)"><animate attributeName="x" values="-130;700" dur="6.6s" begin=".5s" repeatCount="indefinite"/></rect></g>
+  <rect x="2.5" y="2.5" width="555" height="227" rx="15" fill="none" stroke="url(#border)" stroke-width="1" stroke-dasharray="20 28" opacity=".5"><animate attributeName="stroke-dashoffset" values="0;-192" dur="7.4s" repeatCount="indefinite"/></rect>
+  <path d="M24 18 H536" stroke="#3a2230" stroke-width="2"/>
+  <path d="M24 18 H536" stroke="url(#border)" stroke-width="2" stroke-dasharray="512" stroke-dashoffset="512"><animate attributeName="stroke-dashoffset" values="512;0;0" keyTimes="0;.72;1" dur="5.2s" repeatCount="indefinite"/></path>
+  <rect x="30" y="36" width="68" height="68" rx="12" fill="url(#icon)"><animate attributeName="opacity" values=".78;1;.78" dur="3.2s" repeatCount="indefinite"/></rect>
+  <g transform="translate(42 48) scale(1.8333)"><path d="M1.763 0C.786 0 0 .786 0 1.763v20.474C0 23.214.786 24 1.763 24h20.474c.977 0 1.763-.786 1.763-1.763V1.763C24 .786 23.214 0 22.237 0zM5.13 5.323l13.837.019-.009 13.836h-3.464l.01-10.382h-3.456L12.04 19.17H5.113z" fill="#CB3837"/></g>
+  <text x="118" y="59" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="24" font-weight="800">itay-time-art</text>
+  <text x="119" y="82" fill="#fca5a5" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">COMMAND LINE TOOL &#183; PUBLISHED ON NPM</text>
+  <rect x="447" y="35" width="80" height="28" rx="7" fill="#2a1114" stroke="#7a2f36"/>
+  <text x="487" y="53" fill="#f7b3b8" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="800" text-anchor="middle">v1.0.6</text>
+  <text x="30" y="136" fill="#e7dbe3" font-family="Segoe UI,Arial,sans-serif" font-size="15">Prints the current time as large ASCII art in the terminal.</text>
+  <text x="30" y="158" fill="#b3a2ae" font-family="Segoe UI,Arial,sans-serif" font-size="15">Installed globally and run as the command art.</text>
+  <path d="M30 174H527" stroke="url(#border)" stroke-width="1" opacity=".22"/><circle cy="174" r="3" fill="#fca5a5" filter="url(#glow)"><animate attributeName="cx" values="30;527;30" dur="5.8s" begin=".4s" repeatCount="indefinite"/></circle>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="700">
+    <rect x="30" y="188" width="82" height="28" rx="7" fill="#2a1114" stroke="#7a2f36"/><text x="71" y="206" fill="#f7b3b8" text-anchor="middle">NODE.JS</text>
+    <rect x="122" y="188" width="104" height="28" rx="7" fill="#2a1114" stroke="#7a2f36"/><text x="174" y="206" fill="#f7b3b8" text-anchor="middle">TYPESCRIPT</text>
+    <rect x="236" y="188" width="80" height="28" rx="7" fill="#2a1114" stroke="#7a2f36"/><text x="276" y="206" fill="#f7b3b8" text-anchor="middle">FIGLET</text>
+    <rect x="326" y="188" width="62" height="28" rx="7" fill="#2a1114" stroke="#7a2f36"/><text x="357" y="206" fill="#f7b3b8" text-anchor="middle">BIN</text>
+  </g>
+  <circle cx="517" cy="145" r="17" fill="#2a1114" stroke="#8c3a42"><animate attributeName="r" values="16;18;16" dur="2.6s" repeatCount="indefinite"/><animate attributeName="stroke" values="#8c3a42;#fb923c;#8c3a42" dur="3.8s" repeatCount="indefinite"/></circle><path d="M510 145h13m-5-5 5 5-5 5" fill="none" stroke="#fca5a5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

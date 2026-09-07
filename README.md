@@ -1,7 +1,7 @@
 <!-- GitHub profile README -->
 
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="Itay Goldenberg - Full Stack Developer" width="100%" />
+  <img src="./assets/profile-banner.svg?v=2" alt="Itay Goldenberg - Full Stack Developer" width="100%" />
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@
 I am a Full Stack Developer based in Israel. I build typed React interfaces and back them with Express APIs over both relational and document databases, and I have been extending that work into real-time messaging, AI-assisted data access and containerised delivery. Three of my packages are published on npm. I enjoy turning product ideas into complete systems, and refining the details that make software feel considered.
 
 <p align="center">
-  <img src="./assets/capability-matrix.svg" alt="Interface engineering, application architecture, and API data capabilities" width="100%" />
+  <img src="./assets/capability-matrix.svg?v=2" alt="Interface engineering, application architecture, and API data capabilities" width="100%" />
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@ I am a Full Stack Developer based in Israel. I build typed React interfaces and 
 ## Toolkit
 
 <p align="center">
-  <img src="./assets/toolkit-stage.svg" alt="Animated engineering toolkit with original technology logos" width="100%" />
+  <img src="./assets/toolkit-stage.svg?v=2" alt="Animated engineering toolkit with original technology logos" width="100%" />
 </p>
 
 ## Featured Work
@@ -48,7 +48,7 @@ I am a Full Stack Developer based in Israel. I build typed React interfaces and 
 </p>
 
 <p align="center">
-  <a href="https://northwind-itaygold.web.app"><img src="./assets/projects/northwind.svg" alt="Northwind project" width="82%" /></a><br />
+  <a href="https://northwind-itaygold.web.app"><img src="./assets/projects/northwind.svg?v=2" alt="Northwind project" width="82%" /></a><br />
   <a href="https://northwind-itaygold.web.app">Live application</a> &nbsp;|&nbsp; <a href="https://github.com/itaygoldenberg/Northwind">Source code</a>
 </p>
 
@@ -78,18 +78,21 @@ I am a Full Stack Developer based in Israel. I build typed React interfaces and 
 
 ## Packages
 
-Three packages of mine are published on the public npm registry and installable by anyone.
+Three packages of mine are published on the public npm registry and installable by anyone. Each card links to its page on npm.
 
 <p align="center">
-  <img src="./assets/packages.svg" alt="Published npm packages: itay-time-art, itay-color-printer and itay-random-color" width="82%" />
+  <a href="https://www.npmjs.com/package/itay-time-art"><img src="./assets/packages/time-art.svg" alt="itay-time-art on npm" width="82%" /></a><br />
+  <a href="https://www.npmjs.com/package/itay-time-art">View on npm</a> &nbsp;|&nbsp; <code>npm i -g itay-time-art</code>
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/itay-time-art">itay-time-art</a>
-  &nbsp;&middot;&nbsp;
-  <a href="https://www.npmjs.com/package/itay-color-printer">itay-color-printer</a>
-  &nbsp;&middot;&nbsp;
-  <a href="https://www.npmjs.com/package/itay-random-color">itay-random-color</a>
+  <a href="https://www.npmjs.com/package/itay-color-printer"><img src="./assets/packages/color-printer.svg" alt="itay-color-printer on npm" width="82%" /></a><br />
+  <a href="https://www.npmjs.com/package/itay-color-printer">View on npm</a> &nbsp;|&nbsp; <code>npm i itay-color-printer</code>
+</p>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/itay-random-color"><img src="./assets/packages/random-color.svg" alt="itay-random-color on npm" width="82%" /></a><br />
+  <a href="https://www.npmjs.com/package/itay-random-color">View on npm</a> &nbsp;|&nbsp; <code>npm i itay-random-color</code>
 </p>
 
 ## Engineering Approach
