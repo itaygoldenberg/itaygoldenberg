@@ -17,12 +17,14 @@
   &nbsp;&middot;&nbsp;
   <a href="#featured-work">Featured work</a>
   &nbsp;&middot;&nbsp;
+  <a href="#packages">Packages</a>
+  &nbsp;&middot;&nbsp;
   <a href="#connect">Connect</a>
 </p>
 
 ## About
 
-I am a Full Stack Developer based in Israel, focused on building clean, responsive web applications with thoughtful architecture and polished user experiences. I enjoy turning product ideas into complete interfaces, connecting them to reliable data flows, and refining the details that make software feel considered.
+I am a Full Stack Developer based in Israel. I build typed React interfaces and back them with Express APIs over both relational and document databases, and I have been extending that work into real-time messaging, AI-assisted data access and containerised delivery. Three of my packages are published on npm. I enjoy turning product ideas into complete systems, and refining the details that make software feel considered.
 
 <p align="center">
   <img src="./assets/capability-matrix.svg" alt="Interface engineering, application architecture, and API data capabilities" width="100%" />
@@ -46,8 +48,8 @@ I am a Full Stack Developer based in Israel, focused on building clean, responsi
 </p>
 
 <p align="center">
-  <a href="https://github.com/itaygoldenberg/Northwind"><img src="./assets/projects/northwind.svg" alt="Northwind project" width="82%" /></a><br />
-  <a href="https://github.com/itaygoldenberg/Northwind">Source code</a>
+  <a href="https://northwind-itaygold.web.app"><img src="./assets/projects/northwind.svg" alt="Northwind project" width="82%" /></a><br />
+  <a href="https://northwind-itaygold.web.app">Live application</a> &nbsp;|&nbsp; <a href="https://github.com/itaygoldenberg/Northwind">Source code</a>
 </p>
 
 <p align="center">
@@ -73,6 +75,22 @@ I am a Full Stack Developer based in Israel, focused on building clean, responsi
   &nbsp;&middot;&nbsp;
   <a href="https://github.com/itaygoldenberg/Youtube-Duration-Validator">YouTube Duration Validator</a>
 </details>
+
+## Packages
+
+Three packages of mine are published on the public npm registry and installable by anyone.
+
+<p align="center">
+  <img src="./assets/packages.svg" alt="Published npm packages: itay-time-art, itay-color-printer and itay-random-color" width="82%" />
+</p>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/itay-time-art">itay-time-art</a>
+  &nbsp;&middot;&nbsp;
+  <a href="https://www.npmjs.com/package/itay-color-printer">itay-color-printer</a>
+  &nbsp;&middot;&nbsp;
+  <a href="https://www.npmjs.com/package/itay-random-color">itay-random-color</a>
+</p>
 
 ## Engineering Approach
 
